@@ -1,5 +1,5 @@
 <addon id="script.xmlonlybyth.onesearch" version="1.0.0" name="OneSearch" provider-name="idealkooks">
-    <summary>Onesearch is an simple search addon</summary>
+    <summary>OneSearch is a simple search add-on</summary>
     <description>
         This add-on allows users to perform searches across multiple sources.
     </description>
@@ -8,9 +8,17 @@
     <license>CC0</license>
 
     <extension point="xbmc.addon.metadata">
-        <summary>OneSearch is an simple search addon</summary>
+        <summary>OneSearch is a simple search add-on</summary>
         <description>
             This add-on allows users to perform searches across multiple sources.
         </description>
     </extension>
+
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>script</provides>
+    </extension>
+
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
 </addon>
