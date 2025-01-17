@@ -12,6 +12,8 @@
         <description>
             This add-on allows users to perform searches across multiple sources.
         </description>
+        <platform>all</platform>
+        <language>en</language>
     </extension>
 
     <extension point="xbmc.python.script" library="default.py">
